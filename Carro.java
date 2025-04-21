@@ -43,7 +43,7 @@ public class Carro {
             meuCarro.reduzir(10);
             System.out.println("Velocidade após reduzir: " + meuCarro.getVelocidade() + " km/h");
 
-            meuCarro.acelerar(25); 
+            meuCarro.acelerar(25);
         } catch (IllegalArgumentException e) {
             System.out.println("Erro: " + e.getMessage());
         }
